@@ -83,7 +83,7 @@ export default function App() {
             icon={<Satellite size={16} className="text-primary-400" />}
             label="Zones Monitored"
             value={totalZones.toString()}
-            sub="across 4 regions"
+            sub="across 5 regions"
           />
           <KpiCard
             icon={<TrendingUp size={16} className="text-warning-400" />}
@@ -101,7 +101,7 @@ export default function App() {
           <KpiCard
             icon={<MapIcon size={16} className="text-accent-400" />}
             label="Active Region"
-            value={selectedRegion.state}
+            value="Northeast India"
             sub={`${selectedRegion.zones.length} zones`}
           />
         </section>
